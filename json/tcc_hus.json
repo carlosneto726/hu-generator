@@ -1,0 +1,170 @@
+[
+    {
+        "tipo":"usuarios",
+        "hus":[
+            {
+                "titulo": "Carrinho de compras",
+                "texto": "Como usuário comum, eu quero poder adicionar produtos a um carrinho de compras, para que eu realize uma compra única com vários produtos.",
+                "subs": [
+                    {
+                        "titulo":"Gerenciamento do carrinho",
+                        "texto":"Como usuário comum, eu quero poder deletar, adicionar e atualizar a quantidade de cada produto no meu carrinho."
+                    }
+                ]
+                
+            },
+            {
+                "titulo":"Detalhes do produto",
+                "texto":"Como usuário comum, eu quero poder ver informações detalhadas sobre cada produto, como preço, descrição, imagens, avaliações, entre outro, para que eu possa decidir qual produto comprar.",
+                "subs":[
+                    {
+                        "titulo":"Exibição de preço no produto",
+                        "texto":"Como usuário, eu quero poder visualizar o preço de cada produto."
+                    },
+                    {
+                        "titulo":"Descrição do produto",
+                        "texto":"Como usuário, eu quero poder ler uma descrição detalhada de cada produto."
+                    },
+                    {
+                        "titulo":"Imagens do produto",
+                        "texto":"Como usuário, eu quero poder ver imagens dos produtos para ter uma ideia visual do que estou comprando."
+                    },
+                    {
+                        "titulo":"Exibição de avaliações",
+                        "texto":"Como usuário, eu quero poder ver as avaliações dos produtos feitas por outros usuários para tomar uma decisão mais informada."
+                    }
+                ]
+            },
+            {
+                "titulo":"Gestão de perfis de usuário",
+                "texto":"Como usuário comum, eu quero poder criar e gerenciar meu perfil com informações como, nome, endereço, preferências de pagamento, histórico de compras, entre outros, para que eu possa administrar minhas compras e preencher formulários apenas uma vez.",
+                "subs":[]
+            },
+            {
+                "titulo":"Disponibilização de entregas",
+                "texto":"Como usuário comum, eu quero saber qual cooperativa está disposta a efetuar a entrega do produto, para que eu possa saber se sou eu quem deve ir buscar o produto.",
+                "subs":[]
+            },
+            {
+                "titulo":"Avaliação de produtos",
+                "texto":"Como usuário comum, eu quero poder comentar sobre os produtos que comprei, para que outras pessoas possam ter acesso a essas informações e tomar decisões mais informadas.",
+                "subs":[
+                    {
+                        "titulo":"Lista de produtos favoritos",
+                        "texto":"Como usuário comum, quero poder adicionar produtos à minha lista de favoritos para facilitar o acesso posterior."
+                    }
+                ]
+            },
+        
+            {
+                "titulo":"Comparação de produtos",
+                "texto":"Como usuário comum, eu quero poder comparar produtos vendidos pela as cooperativas, para que eu possa me decidir qual é o melhor produto para a compra.",
+                "subs":[
+                    {
+                        "titulo":"Informações da comparação",
+                        "texto":"Como usuário comum, eu quero poder comparar informações como preço, distância, foto, avaliações e unidade quantitativa e qualitativa, para que eu possa me decidir melhor."
+                    }
+                ]
+            },
+        
+            {
+                "titulo":"Busca de produtos",
+                "texto":"Como usuário comum, eu quero poder pesquisar os produtos, para que eu possa encontrar os produtos vendidos pelas cooperativas cadastradas.",
+                "subs":[
+                    {
+                        "titulo":"Filtro de pesquisa",
+                        "texto":"Como usuário comum, quero poder filtrar os resultados da pesquisa por categorias específicas de produtos."
+                    },
+                    {
+                        "titulo":"Informações sobre a pesquisa",
+                        "texto":"Como usuário comum, quero ver uma lista de produtos correspondentes à minha pesquisa com informações básicas, como nome, imagem, preço e informações relevantes sobre a cooperativa."
+                    },
+                    {
+                        "titulo":"Classificação de resultado",
+                        "texto":"Como usuário comum, quero poder classificar os resultados da pesquisa por relevância, preço, avaliação, etc."
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "tipo":"cooperativas",
+        "hus":[
+            {
+                "titulo":"Cadastro de Cooperativas",
+                "texto":"Como membro de uma cooperativa, eu quero poder cadastrar a minha cooperativa na plataforma e criar um perfil com informações como nome, localização, informações de contato, produtos que vendemos, entre outros, para que as cooperativas se diferenciem umas das outras.",
+                "subs":[]
+            },
+            {
+                "titulo":"Criação de um Catálogo",
+                "texto":"Como membro de uma cooperativa, eu quero uma funcionalidade de catálogo na plataforma web que me permita exibir nossos produtos de forma clara e organizada para a população, para que eles possam encontrar o que precisam facilmente.",
+                "subs":[
+                    {
+                        "titulo":"Personalização do catálogo",
+                        "texto":"Como membro de uma cooperativa, eu quero poder personalizar o meu catálogo conforme eu julgar melhor, para que o meu perfil se adapte as minhas escolhas de marketing."
+                    }
+                ]
+            },
+            {
+                "titulo":"Disponibilização de informações sobre cooperativas",
+                "texto":"Como membro de uma cooperativa, eu quero poder disponibilizar informações sobre a minha cooperativa, como histórico, missão, visão e valores, para que minha cooperativa tenha uma maior transparência e engajamento com o público.",
+                "subs":[]
+            },
+            {
+                "titulo":"Fórum de discussão entre cooperativas",
+                "texto":"Como membro de uma cooperativa, eu quero a disponibilização de um fórum de discussão entre cooperativas, para que eu possa compartilhar ideias, experiencias e soluções de problemas.",
+                "subs":[]
+            },
+            {
+                "titulo":"Chat entre cliente e cooperativa",
+                "texto":"Como membro de uma cooperativa, eu quero poder me comunicar diretamente com o cliente, para que eu possa esclarece dúvidas e solucionar problemas.",
+                "subs":[]
+            },
+            {
+                "titulo":"Relatórios",
+                "texto":"Como membro de um cooperativa, eu quero poder ver relatórios e métricas dos produtos, para que eu possa acompanhar o desempenho dos meus produtos na plataforma.",
+                "subs":[
+                    {
+                        "titulo":"Tipos de relatórios",
+                        "texto":"Como membro de uma cooperativa, eu quero uma listagem de tipos de relatórios como, receita, mais vendidos, locais mais vendidos, para que eu possa me adaptar ao mercado."
+                    },
+                    {
+                        "titulo":"Gráficos",
+                        "texto":"Como membro de uma cooperativa, eu quero poder visualizar esses relatórios com gráficos simples e intuitivos, para que eu possa compreender melhor os gráficos."
+                    }
+                ]
+            },
+            {
+                "titulo":"Gestão de pedidos",
+                "texto":"Como membro de uma cooperativa, eu quero um sistema de gestão de pedidos, com informações sobre os pedidos recebidos e status da entrega, para que eu possa me certificar quais produtos preciso fazer e quais já foram entregues.",
+                "subs":[
+                    {
+                        "titulo":"Visualização de pedidos",
+                        "texto":"Como membro de uma cooperativa, eu quero poder visualizar os pedidos recebidos e as informações dos clientes."
+                    },
+                    {
+                        "titulo":"Status de entrega",
+                        "texto":"Como membro da cooperativa, eu quero poder atualizar o status de entrega dos pedidos para manter os clientes informados."
+                    }
+                ]
+            },
+            {
+                "titulo":"Controle de estoque",
+                "texto":"Como membro de uma cooperativa, eu quero um recurso na plataforma web que me permita gerenciar o estoque de forma eficiente, para que, eu possa acompanhar o estoque de produtos, registrar movimentações, receber notificações de estoque baixo e ter uma visão clara da disponibilidade dos produtos.",
+                "subs":[
+                    {
+                        "titulo":"Manuseio de estoque",
+                        "texto":"Como membro da cooperativa, eu quero poder adicionar ou remover produtos do estoque conforme a disponibilidade."
+        
+                    },
+                    {
+                        "titulo":"Atualização de estoque",
+                        "texto":"Como membro de uma cooperativa, eu quero poder atualizar o estoque dos produtos vendidos e que a plataforma atualize também a quantidade de produtos para cada produto vendido, para que eu possa evitar venda de produtos esgotados."
+        
+                    }
+                ]
+            }
+        ]
+    }
+]
